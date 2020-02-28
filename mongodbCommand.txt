@@ -1,0 +1,31 @@
+use <DataBase Name> //create Database
+
+db.Students.insertMany([
+  {
+    "firstname": "Odonnell Malone",
+    "lastname": "Rose Hoffman",
+    "school": "Grand Street"
+  },
+  {
+    "firstname": "Araceli Branch",
+    "lastname": "Cornelia Watts",
+    "school": "Eaton Court"
+  },
+  {
+    "firstname": "Torres Nixon",
+    "lastname": "Isabel Dickerson",
+    "school": "Berry Street"
+  },
+  {
+    "firstname": "Lora Wagner",
+    "lastname": "Goldie Mcguire",
+    "school": "Strong Place"
+  },
+  {
+    "firstname": "Donna Herman",
+    "lastname": "Everett Hudson",
+    "school": "Douglass Street"
+  }
+]); // add entity to it
+
+db.Students.find().pretty(); // show entities
